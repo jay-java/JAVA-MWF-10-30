@@ -1,0 +1,59 @@
+package core;
+
+import java.util.Scanner;
+
+public class P006_Conditions {
+	public static void main(String[] args) {
+		// 1.if else
+		if (true) {
+			System.out.println("condition is satisfied");
+		} else {
+			System.out.println("condition is wrong");
+		}
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter num1 = ");
+		int num1 = sc.nextInt();
+		System.out.println("enter num2 = ");
+		int num2 = sc.nextInt();
+		if (num1 > num2) {
+			System.out.println("num1 is greater than num2");
+		} else {
+			System.out.println("num1 is less than num2");
+		}
+
+		// 2.nested if
+		System.out.println("enter your age = ");
+		int age = sc.nextInt();
+
+		if (age > 18) {
+			if (age < 55) {
+				System.out.println("you are eligible");
+			} else {
+				System.out.println("age is greater than 18 but not less than 55");
+			}
+		} else {
+			System.out.println("age is less than 18");
+		}
+
+		// 3.else if ladder
+		System.out.println("enter marks = ");
+		int m = sc.nextInt();
+		if (m < 35) {
+			System.out.println("fail");
+		} 
+		else if (m >= 35 && m <= 60) {
+			System.out.println("Pass class");
+		} else if (m >= 61 && m <= 70) {
+			System.out.println("C class");
+		} else if (m >= 71 && m <= 80) {
+			System.out.println("B class");
+		} else if (m >= 81 && m <= 90) {
+			System.out.println("A class");
+		} else if (m >= 91 && m <= 100) {
+			System.out.println("A+ class");
+		} else {
+			System.out.println("invalid input");
+		}
+	}
+}

@@ -1,0 +1,22 @@
+package core;
+
+import java.util.Scanner;
+
+public class P006_Conditions {
+	public static void main(String[] args) {
+		// 1.if else
+		if (true) {
+			System.out.println("condition is satisfied");
+		} else {
+			System.out.println("condition is wrong");
+		}
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter num1 = ");
+		int num1 = sc.nextInt();
+		System.out.println("enter num2 = ");
+		int num2 = sc.nextInt();
+		
+	}
+}

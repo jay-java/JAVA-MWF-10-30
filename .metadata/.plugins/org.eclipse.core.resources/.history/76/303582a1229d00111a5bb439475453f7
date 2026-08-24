@@ -1,0 +1,9 @@
+package core;
+
+public class P004_TypeCasting {
+	public static void main(String[] args) {
+		byte b = 1; //1
+		int i = 1; //4
+		
+	}
+}

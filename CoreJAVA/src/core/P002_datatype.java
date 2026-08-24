@@ -1,0 +1,25 @@
+package core;
+//1.primitive -> byte,short,int,long,float,double,boolean,char
+
+//2.non-primitive -> array,string,class
+
+public class P002_datatype {
+	public static void main(String[] args) {
+		byte b = 127; //1
+		System.out.println("b = " + b);
+		short s = 3276;//2
+		int i = 12;//4
+		long l = 12;//8
+		
+		float f = 3.1445686756f; //4
+		System.out.println(f);
+		double d = 3.14457874576; //8
+		System.out.println(d);
+		
+		
+		boolean flag = true;
+		
+		char c = 'd';
+		
+	}
+}

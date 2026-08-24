@@ -1,0 +1,14 @@
+package core;
+
+public class P004_TypeCasting {
+	public static void main(String[] args) {
+		byte b = 1; // 1
+		int i = b; // 4 -> implicit
+		short s = (short) i; // 2 -> explicit
+
+		int a = 10;
+		int b1 = 2;
+		int c = a / b1;
+		System.out.println(c);
+	}
+}

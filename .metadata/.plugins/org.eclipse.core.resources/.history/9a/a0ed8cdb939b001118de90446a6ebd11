@@ -1,0 +1,9 @@
+package core;
+//1.primitive -> byte,short,int,long,float,double,boolean,char
+//2.non-primitive -> array,string,class
+
+public class P002_datatype {
+	public static void main(String[] args) {
+		
+	}
+}

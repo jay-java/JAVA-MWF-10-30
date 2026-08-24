@@ -1,0 +1,13 @@
+package core;
+
+//three streams in java
+//1.in -> input stream
+//2.out-> printStream
+//3.err -> error stream
+public class P001_first {
+	public static void main(String[] args) {
+		System.err.print("hello java");
+		System.out.println("hello java");
+		System.out.println("hello java");
+	}
+}

@@ -1,0 +1,18 @@
+package core;
+
+public class P003_Operators {
+	public static void main(String[] args) {
+		// 1.Arithmetic -> +,-,*,/,%
+		int a = 10;
+		int b = 2;
+		System.out.println(a + b);
+		System.out.println(a - b);
+		System.out.println(a * b);
+		System.out.println(a / b);
+		System.out.println(a % b);
+		
+		//2.Assignment -> =,+=,-=,*=,/=
+		
+		
+	}
+}
