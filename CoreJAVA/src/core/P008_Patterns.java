@@ -39,7 +39,7 @@ public class P008_Patterns {
 			}
 			System.out.println();
 		}
-		
+
 		for (int i = 1; i <= 5; i++) {
 			for (int s = 4; s >= i; s--) {
 				System.out.print(" ");

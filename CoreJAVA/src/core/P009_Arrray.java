@@ -1,0 +1,63 @@
+package core;
+
+import java.util.Scanner;
+
+public class P009_Arrray {
+	public static void main(String[] args) {
+		int a[] = { 112, 2342, 3453, 4564, 5456 };
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+		System.out.println(a[3]);
+		System.out.println(a[4]);
+
+		for (int index = 0; index < a.length; index++) {
+			System.out.println(a[index]);
+		}
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter size of array = ");
+		int size = sc.nextInt();
+
+		int ar[] = new int[size];
+		for (int index = 0; index < ar.length; index++) {
+			System.out.print("enter element at ar[" + index + "] : ");
+			ar[index] = sc.nextInt();
+		}
+
+		int sum = 0;
+		for (int index = 0; index < ar.length; index++) {
+			sum = sum + ar[index];
+		}
+		System.out.println(sum);
+
+		System.out.println("enter element to search in array = ");
+		int ele = sc.nextInt();
+		int counter = 0;
+		for (int index = 0; index < ar.length; index++) {
+			if (ele == ar[index]) {
+				counter++;
+			}
+		}
+		if (counter > 0) {
+			System.out.println("element exist in array" + counter + " times");
+		} else {
+			System.out.println("element not exist in array");
+		}
+
+//		int min = ar[0];
+//		for (int index = 0; index < ar.length; index++) {
+//			if (min < ar[idnex+1]) {
+//				min = ar[index+1];
+//			}
+//		}
+
+		int min = ar[0];
+		for (int index = 0; index < ar.length; index++) {
+			if (ar[index] < min) {
+				min = ar[index];
+			}
+		}
+		System.out.println("min = " + min);
+	}
+}

@@ -1,0 +1,24 @@
+package core;
+
+import java.util.Scanner;
+
+public class P009_Arrray {
+	public static void main(String[] args) {
+		int a[] = { 1, 2, 3, 4, 5 };
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+		System.out.println(a[3]);
+		System.out.println(a[4]);
+		
+		for(int index=0;index<a.length;index++) {
+			System.out.println(a[index]);
+		}
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter size of array = ");
+		int size = sc.nextInt();
+		
+		
+	}
+}
