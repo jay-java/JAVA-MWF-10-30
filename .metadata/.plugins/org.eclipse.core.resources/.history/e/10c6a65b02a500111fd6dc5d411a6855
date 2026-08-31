@@ -1,0 +1,11 @@
+package core;
+
+class ABC{
+	
+}
+
+public class P011_methods {
+	public static void main(String[] args) {
+
+	}
+}
