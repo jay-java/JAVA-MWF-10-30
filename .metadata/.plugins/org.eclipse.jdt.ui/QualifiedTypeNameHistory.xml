@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="sun.security.pkcs11.wrapper.CK_SALSA20_CHACHA20_POLY1305_PARAMS"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="core.User"/>
 </qualifiedTypeNameHistroy>

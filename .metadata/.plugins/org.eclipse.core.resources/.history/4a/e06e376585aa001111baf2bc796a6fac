@@ -1,0 +1,15 @@
+package core;
+
+class AA{
+	static int i=1;
+	public void change() {
+		i++;
+		System.out.println(i);
+	}
+}
+public class P016_Static {
+	public static void main(String[] args) {
+		AA a = new AA();
+		a.change();
+	}
+}

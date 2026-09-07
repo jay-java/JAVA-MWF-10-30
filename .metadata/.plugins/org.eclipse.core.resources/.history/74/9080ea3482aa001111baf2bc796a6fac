@@ -1,0 +1,20 @@
+package core;
+
+//1.runtime(overriding)
+//2.compile-time(overloading)
+
+class Overloading {
+	public void add() {
+
+	}
+
+	public void add() {
+
+	}
+}
+
+public class P015_Polymorphism {
+	public static void main(String[] args) {
+		Overloading o = new Overloading()();
+	}
+}

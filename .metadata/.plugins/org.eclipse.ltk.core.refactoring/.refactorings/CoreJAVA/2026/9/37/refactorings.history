@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;core.P016_Abstraction&apos; to &apos;P017_Abstraction&apos;&#x0D;&#x0A;- Original project: &apos;CoreJAVA&apos;&#x0D;&#x0A;- Original element: &apos;core.P016_Abstraction&apos;&#x0D;&#x0A;- Renamed element: &apos;core.P017_Abstraction&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;P016_Abstraction&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;core{P016_Abstraction.java[P016_Abstraction" matchStrategy="1" name="P017_Abstraction" qualified="false" references="true" similarDeclarations="false" stamp="1788762466934" textual="false" version="1.0"/>
+</session>
