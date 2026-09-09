@@ -1,0 +1,22 @@
+package core;
+
+class AB {
+	final int i = 1;
+
+	public void change() {
+		System.out.println("change in AB class" + i);
+	}
+}
+
+class CD extends AB {
+	public void change() {
+		System.out.println("change in CD class");
+	}
+}
+
+public class P020_Final {
+	public static void main(String[] args) {
+		AB a = new AB();
+		a.change();
+	}
+}

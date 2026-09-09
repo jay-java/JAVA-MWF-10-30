@@ -1,7 +1,0 @@
-package core;
-
-public class P010_Multidimensional {
-	public static void main(String[] args) {
-		int arr[][] = {};
-	}	
-}

@@ -20,7 +20,7 @@ class Overloading {
 
 class Parent {
 	public void data1() {
-		System.out.println("data method in parent");
+		System.out.println("data1 method in parent");
 	}
 }
 
@@ -30,6 +30,7 @@ class Child extends Parent {
 	}
 
 	public void data1() {
+		super.data1();
 		System.out.println("data1 method in child");
 	}
 }

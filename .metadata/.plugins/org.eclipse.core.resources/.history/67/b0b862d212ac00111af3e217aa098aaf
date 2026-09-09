@@ -1,0 +1,37 @@
+package core;
+
+abstract class RBI {
+	abstract public void HL();
+
+	abstract public void interest();
+}
+
+class HDFC extends RBI {
+
+	@Override
+	public void HL() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void interest() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class SBI extends RBI {
+
+}
+
+class JAVA extends RBI {
+
+}
+
+public class P017_Abstraction {
+	public static void main(String[] args) {
+
+	}
+}

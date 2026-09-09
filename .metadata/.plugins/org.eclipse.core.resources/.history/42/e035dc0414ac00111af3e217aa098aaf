@@ -1,0 +1,18 @@
+package core;
+
+class Dog{
+	
+}
+
+class Cat{
+	
+}
+
+class Sparrow{
+	
+}
+public class P018_AbstractPrac {
+	public static void main(String[] args) {
+		
+	}
+}

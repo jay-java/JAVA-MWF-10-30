@@ -1,0 +1,17 @@
+package core;
+
+class ABC {
+	int i = 1;
+
+	public void change() {
+		i++;
+		System.out.println(i);
+	}
+}
+
+public class P020_Final {
+	public static void main(String[] args) {
+		ABC a = new ABC();
+		a.change();
+	}
+}

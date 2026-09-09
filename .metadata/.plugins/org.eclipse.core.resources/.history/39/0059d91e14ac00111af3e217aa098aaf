@@ -1,0 +1,27 @@
+package core;
+
+abstract class Animal {
+	abstract public void sound();
+
+	abstract public void walk();
+
+	abstract public void eat();
+}
+
+class Dog {
+
+}
+
+class Cat {
+
+}
+
+class Sparrow {
+
+}
+
+public class P018_AbstractPrac {
+	public static void main(String[] args) {
+
+	}
+}
