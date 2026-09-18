@@ -1,0 +1,39 @@
+package core;
+
+interface inter1 {
+	public void inteface1Method();
+}
+
+interface inter2 extends inter1 {
+	public void inteface2Method();
+}
+
+interface inter3 {
+	public void inteface3Method();
+}
+
+class InterfaceImplementation implements inter2, inter3 {
+
+	@Override
+	public void inteface1Method() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void inteface3Method() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void inteface2Method() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+public class P021_interface {
+
+}

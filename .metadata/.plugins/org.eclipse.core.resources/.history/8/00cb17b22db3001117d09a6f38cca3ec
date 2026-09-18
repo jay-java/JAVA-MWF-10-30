@@ -1,0 +1,58 @@
+package core;
+
+interface inter1 {
+	public void inteface1Method();
+
+	public static void interface1Static() {
+		System.out.println("interface 1 static method");
+	}
+}
+
+interface inter2 extends inter1 {
+	public void inteface2Method();
+
+	public static void interface2Static() {
+		System.out.println("interface 2 static method");
+	}
+}
+
+interface inter3 {
+	public void inteface3Method();
+
+	public static void interface3Static() {
+		System.out.println("interface 3 static method");
+	}
+}
+
+class InterfaceImplementation implements inter2, inter3 {
+
+	@Override
+	public void inteface1Method() {
+		// TODO Auto-generated method stub
+		System.out.println("interface 1 method");
+	}
+
+	@Override
+	public void inteface3Method() {
+		// TODO Auto-generated method stub
+		System.out.println("interface 3 method");
+	}
+
+	@Override
+	public void inteface2Method() {
+		// TODO Auto-generated method stub
+		System.out.println("interface 2 method");
+	}
+
+}
+
+public class P021_interface {
+	public static void main(String[] args) {
+		InterfaceImplementation i = new InterfaceImplementation();
+		i.inteface1Method();
+		i.inteface2Method();
+		i.inteface3Method();
+		
+		
+	}
+}

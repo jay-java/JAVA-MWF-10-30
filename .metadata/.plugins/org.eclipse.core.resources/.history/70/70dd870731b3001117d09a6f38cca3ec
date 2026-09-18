@@ -1,0 +1,35 @@
+package core;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+//1.try
+//2.catch
+//3.finally
+//4.throw
+//5.throws
+public class P022_Exception {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		try {
+			System.out.println("enter a =");
+			int a = sc.nextInt();
+
+			System.out.println("enter b = ");
+			int b = sc.nextInt();
+
+			int c = a / b;
+			System.out.println("c = " + c);
+		}
+		
+		catch (Exception e) {
+			System.out.println("msg");
+		}
+		
+		catch (ArithmeticException exception) {
+			System.out.println("number cannot divide by zero");
+		} catch (InputMismatchException e) {
+			System.out.println("input should be numeric value");
+		} 
+	}
+}

@@ -69,6 +69,7 @@ public class P017_Abstraction {
 		h.interest();
 		h.rules();
 		HDFC.repoRate();
+		h.repoRate();
 		SBI s = new SBI();
 		s.HL();
 		s.interest();

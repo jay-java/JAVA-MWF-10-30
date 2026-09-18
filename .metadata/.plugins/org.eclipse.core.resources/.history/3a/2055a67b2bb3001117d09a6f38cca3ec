@@ -1,0 +1,8 @@
+package core;
+
+interface inter1{
+	
+}
+public class P021_interface {
+
+}

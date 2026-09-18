@@ -1,0 +1,17 @@
+package core;
+
+interface inter1 {
+	public void inteface1Method();
+}
+
+interface inter2 {
+	public void inteface2Method();
+}
+
+interface inter3 {
+	public void inteface3Method();
+}
+
+public class P021_interface {
+
+}
