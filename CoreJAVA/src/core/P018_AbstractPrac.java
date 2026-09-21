@@ -1,6 +1,8 @@
 package core;
 
 abstract class Animal {
+	
+	int i = 12;
 	abstract public void sound();
 
 	abstract public void walk();

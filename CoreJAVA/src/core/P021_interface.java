@@ -1,6 +1,7 @@
 package core;
 
 interface inter1 {
+	
 	public void inteface1Method();
 
 	public static void interface1Static() {

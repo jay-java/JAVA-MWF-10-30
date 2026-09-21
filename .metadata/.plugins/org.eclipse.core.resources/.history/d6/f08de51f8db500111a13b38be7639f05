@@ -1,0 +1,8 @@
+package core;
+
+//FileOutputStream, FileWrite -> to write data into file
+public class P023_FileHandling {
+	public static void main(String[] args) {
+		String msg = "this is file handling";
+	}
+}
