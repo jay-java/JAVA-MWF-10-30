@@ -1,0 +1,11 @@
+package core;
+
+class Student{
+	
+}
+
+public class P026_ListPractical {
+	public static void main(String[] args) {
+		
+	}
+}

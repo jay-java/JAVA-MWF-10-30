@@ -1,0 +1,30 @@
+package core;
+
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.Vector;
+
+public class P027_Vector {
+	public static void main(String[] args) {
+		Vector list = new Vector();
+		list.add(123);
+		list.add("java");
+		list.add('t');
+		list.add(346457645);
+		list.add(3456.345);
+		list.add(false);
+		list.add(123);
+		System.out.println(list);
+		list.add("python");
+		System.out.println(list);
+		System.out.println(list.size());
+		list.remove(2);
+		System.out.println(list);
+
+		Enumeration em = list.elements();
+		while (em.hasMoreElements()) {
+			System.out.println(em.nextElement());
+		}
+	}
+}

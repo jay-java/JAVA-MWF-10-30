@@ -1,0 +1,25 @@
+package core;
+
+class Laptop {
+	int ram;
+	String model;
+	double price;
+
+	public Laptop() {
+
+	}
+
+	public Laptop(int ram, String model, double price) {
+		this.ram = ram;
+		this.model = model;
+		this.price = price;
+	}
+	
+	
+}
+
+public class P024_Serialization {
+	public static void main(String[] args) {
+
+	}
+}

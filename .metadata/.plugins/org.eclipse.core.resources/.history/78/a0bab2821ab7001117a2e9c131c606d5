@@ -1,0 +1,53 @@
+package core;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+class Laptop implements Serializable {
+	int ram;
+	String model;
+	double price;
+
+	public Laptop() {
+
+	}
+
+	public Laptop(int ram, String model, double price) {
+		this.ram = ram;
+		this.model = model;
+		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "ram : " + ram + " model : " + model + " price : " + price;
+	}
+}
+
+public class P024_Serialization {
+	public static void main(String[] args) throws IOException, ClassNotFoundException {
+		Laptop l1 = new Laptop(12, "dell", 78940.21);
+
+//		FileOutputStream fos = new FileOutputStream("laptop.txt");
+//
+//		ObjectOutputStream oos = new ObjectOutputStream(fos);
+//
+//		oos.writeObject(l1);
+//		oos.flush();
+//		oos.close();
+//		System.out.println("object written successfully");
+		
+		
+		FileInputStream fis = new FileInputStream("laptop.txt");
+		ObjectInputStream ois= new ObjectInputStream(fis);
+		
+		 ois.readObject();
+		
+		
+		
+	}
+}
