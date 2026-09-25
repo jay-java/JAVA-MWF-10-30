@@ -1,0 +1,30 @@
+package core;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class P030_Map {
+	public static void main(String[] args) {
+		Map map = new HashMap();
+		map.put(1, "c"); // entry
+		map.put(2, "c++");
+		map.put("java", 2435);
+		map.put(346.54, false);
+		map.put('a', "python");
+		map.put(124, "php");
+		map.put(1, "dart");
+		map.put(null, "ABC");
+
+		System.out.println(map);
+
+		Set set = map.entrySet();
+		Iterator itr = set.iterator();
+
+		while (itr.hasNext()) {
+			Map.Entry entry = (Entry) itr.next();
+
+		}
+	}
+}
