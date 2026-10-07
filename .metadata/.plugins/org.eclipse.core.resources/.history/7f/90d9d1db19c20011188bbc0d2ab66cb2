@@ -1,0 +1,8 @@
+package core;
+
+
+public class P032_Comparable {
+	public static void main(String[] args) {
+
+	}
+}

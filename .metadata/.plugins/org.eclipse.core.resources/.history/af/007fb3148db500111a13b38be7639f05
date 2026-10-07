@@ -1,7 +1,0 @@
-package core;
-
-public class P023_FileHandling {
-	public static void main(String[] args) {
-		String msg = "this is file handling";
-	}
-}
