@@ -1,0 +1,12 @@
+package core;
+
+class MyThread{
+	
+}
+public class P034_Thread {
+	public static void main(String[] args) {
+		System.out.println(Thread.currentThread());
+		Thread t = new Thread();
+		System.out.println();
+	}
+}
