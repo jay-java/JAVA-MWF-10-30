@@ -45,4 +45,5 @@
     <fullyQualifiedTypeName name="core.Thread2"/>
     <fullyQualifiedTypeName name="core.NewThread"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="model.User"/>
 </qualifiedTypeNameHistroy>
