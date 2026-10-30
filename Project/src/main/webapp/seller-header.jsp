@@ -135,10 +135,9 @@ if(session.getAttribute("user")!=null){
 								<a href="#" class="nav-link dropdown-toggle"
 									data-bs-toggle="dropdown"><%=s.getName() %></a>
 								<div class="dropdown-menu m-0">
-									<a href="customer-createaccount.jsp" class="dropdown-item">Profile
-										Account</a> 
-									<a href="customer-login.jsp" class="dropdown-item">Change Password</a>
-									<a href="customer-login.jsp" class="dropdown-item">Logout</a>
+									<a href="seller-profile.jsp" class="dropdown-item">Profile</a> 
+									<a href="seller-change-password.jsp" class="dropdown-item">Change Password</a>
+									<a href="seller-logout.jsp" class="dropdown-item">Logout</a>
 								</div>
 							</div>
 							<div class="nav-item dropdown d-block d-lg-none mb-3">

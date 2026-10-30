@@ -70,4 +70,52 @@ public class SellerDao {
 		}
 		return u1;
 	}
+
+	public static void updateSeller(Seller u) {
+		try {
+			Connection conn = DatabaseConnection.createConnection();
+			String sql = "update seller set name=?,contact=?,address=?,email=? where id=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setString(1, u.getName());
+			pst.setLong(2, u.getContact());
+			pst.setString(3, u.getAddress());
+			pst.setString(4, u.getEmail());
+			pst.setInt(5, u.getId());
+			pst.executeUpdate();
+			System.out.println("data updated successfully");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static boolean checkOldPassword(int id, String pass) {
+		boolean flag = false;
+		try {
+			Connection conn = DatabaseConnection.createConnection();
+			String sql = "select * from seller where id=? and password=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setInt(1, id);
+			pst.setString(2, pass);
+			ResultSet rs = pst.executeQuery();
+			if (rs.next()) {
+				flag = true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return flag;
+	}
+
+	public static void updatePassword(int id, String pass) {
+		try {
+			Connection conn = DatabaseConnection.createConnection();
+			String sql = "update seller set password=? where id=?";
+			PreparedStatement pst = conn.prepareStatement(sql);
+			pst.setString(1, pass);
+			pst.setInt(2, id);
+			pst.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }
